@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ScoreboardController">
+   <children>
+      <Rectangle fx:id="lastplayback"     styleClass="last-play-back"  arcHeight="5.0"  arcWidth="5.0"  height="41.0"  layoutX="203.0" layoutY="311.0" strokeType="INSIDE" width="195.0" />
+      <Rectangle fx:id="visitornameback"  styleClass="team-background" arcHeight="25.0" arcWidth="25.0" height="41.0"  layoutX="312.0" layoutY="123.0" strokeType="INSIDE" width="209.0" />
+      <Rectangle fx:id="homenameback"     styleClass="team-background" arcHeight="15.0" arcWidth="25.0" height="41.0"  layoutX="77.0"  layoutY="123.0" strokeType="INSIDE" width="209.0" />
+      <Rectangle fx:id="awaybackground"   styleClass="score-box"       arcHeight="30.0" arcWidth="20.0" height="104.0" layoutX="336.0" layoutY="179.0" strokeType="INSIDE" width="162.0" />
+      <Rectangle fx:id="homebackground"   styleClass="score-box"       arcHeight="30.0" arcWidth="20.0" height="104.0" layoutX="100.0" layoutY="179.0" strokeType="INSIDE" width="162.0" />
+      <Rectangle fx:id="hometitleback"    styleClass="titleback"       arcHeight="50.0" arcWidth="40.0" height="34.0"  layoutX="81.0"  layoutY="85.0" strokeType="INSIDE" width="200.0" />
+      <Rectangle fx:id="visitortitleback" styleClass="titleback"       arcHeight="50.0" arcWidth="40.0" height="34.0"  layoutX="317.0" layoutY="85.0" strokeType="INSIDE" width="200.0" />
+      <Label fx:id="homename"  styleClass="team-name" layoutX="84.0"  layoutY="127.0" prefHeight="34.0"  prefWidth="195.0" text="Home Team"/>
+      <Label fx:id="awayname"  styleClass="team-name" layoutX="319.0" layoutY="127.0" prefHeight="34.0"  prefWidth="195.0" text="Visitor Team"/>
+      <Label fx:id="homescore" styleClass="score"     layoutX="104.0" layoutY="160.0" prefHeight="141.0" prefWidth="153.0" text="0"/>
+      <Label fx:id="awayscore" styleClass="score"     layoutX="340.0" layoutY="160.0" prefHeight="141.0" prefWidth="153.0" text="0"/>
+      <Label fx:id="lasttitle"     styleClass="last-play-text" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="268.0" layoutY="314.0" prefHeight="17.0" prefWidth="63.0" text="Last Play:" /> 
+      <Label fx:id="lastplaylabel" styleClass="last-play-text" layoutX="211.0" layoutY="332.0" prefHeight="17.0" prefWidth="181.0" />
+      <Text fx:id="hometitle"    styleClass="team-side" layoutX="101.0" layoutY="113.0" strokeType="OUTSIDE" text="HOME"    wrappingWidth="162.0"/>
+      <Text fx:id="visitortitle" styleClass="team-side" layoutX="336.0" layoutY="112.0" strokeType="OUTSIDE" text="VISITOR" wrappingWidth="162.0"/>
+   </children>
+</AnchorPane>

@@ -1,0 +1,90 @@
+.root {
+    -fx-background-color: #ffe2f8;
+}
+
+/* scoreboard */
+.team-name {
+    -fx-font-size: 23px;
+    -fx-text-fill: rgb(255, 160, 242);
+    -fx-alignment: center;
+    -fx-content-display: center;
+}
+
+.team-background {
+    -fx-fill: rgb(254, 207, 252);
+    -fx-stroke: rgba(255, 255, 255, 0);
+}
+
+.team-side {
+    -fx-fill: rgb(255, 255, 255);
+    -fx-font-size: 28px;
+    -fx-stroke-width: 0;
+    -fx-text-alignment: center;
+}
+
+.titleback {
+    -fx-fill: rgb(249, 185, 246);
+    -fx-stroke: rgba(255, 255, 255, 0);
+}
+
+.score {
+    -fx-font-size: 96px;
+    -fx-text-fill: #ff54f4;
+    -fx-alignment: center;
+    -fx-content-display: center;
+}
+
+.score-box {
+    -fx-fill: #ffffff;
+    -fx-stroke: rgba(255, 255, 255, 0);
+}
+
+.last-play-text {
+
+}
+
+.last-play-back {
+    -fx-fill: rgb(249, 185, 246);
+}
+
+/* controller */
+.button {
+    -fx-background-color: rgb(238, 163, 229);
+    -fx-font-size: 20px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
+
+.radio-button {
+    -fx-text-fill: rgb(232, 48, 217);
+}
+
+.game-updates {
+    -fx-text-fill: rgb(142, 10, 142);
+    -fx-alignment: TOP_LEFT;
+    -fx-content-display: center;
+}
+
+.updates-back{
+    -fx-fill: rgb(255, 255, 255);
+    -fx-stroke: rgb(115, 0, 104);
+}
+
+/* setup */
+.setup-title{
+    -fx-font-size: 46px;
+    -fx-fill: rgb(242, 124, 242);
+}
+
+.input{
+    -fx-fill: rgb(192, 34, 192);
+}
+
+.setup-enter{
+    -fx-fill: rgb(242, 124, 242);
+}
+
+.set-button{
+    -fx-background-color: rgb(238, 163, 229);
+    -fx-font-size: 12px;
+    -fx-text-fill: rgb(255, 255, 255);
+}
